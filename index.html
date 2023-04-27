@@ -14,7 +14,7 @@
     <title>Adam Wozniak - Frontend Developer</title>
   </head>
   <body>
-    <header class="site-header">
+    <header class="wrapper site-header">
       <div class="container">
         <div class="social">
           <ul class="social-links" role="list">
@@ -48,13 +48,10 @@
               </a>
             </li>
           </ul>
-          <a class="logo" href="#"
-            ><img
-              src="images/AW_box_logo-digital-high.svg"
-              height="64px"
-              alt=""
-          /></a>
         </div>
+        <a class="logo" href="#"
+          ><img src="images/AW_box_logo-digital-high.svg" height="64px" alt=""
+        /></a>
         <nav class="primary-navigation">
           <ul role="list">
             <li>
@@ -67,30 +64,42 @@
       </div>
     </header>
 
-    <main>
-      <section class="layout">
+    <main class="wrapper">
+      <section>
         <div class="headline">
           <h1>
             Hi,<br />
             I’m <span class="text-orange">Adam Woźniak</span>,<br />
-            a <span class="text-white">Frontend Developer</span><br />
-            with a background in <span class="text-white">Design</span>.
+            a <span class="text-white">Web Developer</span> with<br />
+            a background in <span class="text-white">Design</span>.
           </h1>
         </div>
       </section>
 
-      <section class="layout">
+      <section class="bleed-right">
         <div class="profile-img">
-          <img src="images/profile.png" alt="" />
+          <img
+            src="images/profile.png"
+            width="210"
+            height="210"
+            alt="Adam Wozniak"
+          />
         </div>
         <div class="profile-section">
           <div class="about-content">
             <h2>About<span class="text-green">.</span></h2>
-            <p>I'm a Frontend Web Developer based near Bath, UK.</p>
             <p>
-              My previous experience in Motion Graphics provides me with a
-              strong foundation, where I can apply my understanding of design to
-              Frontend Development.
+              I am a Web Development graduate with a background in design,
+              looking to start my first role in the industry.
+            </p>
+            <p>
+              In my previous career, I created motion graphics for large brands,
+              honing my skills in communication, time management and problem
+              solving, as well as design experience that will form a strong
+              foundation for Front-End Development. With a
+              continuous-improvement mindset I am enthusiastic to continue
+              learning new programming languages and technologies to progress to
+              Full-Stack Development.
             </p>
             <p>
               View my projects on GitHub, drop me an email, or find me on
@@ -116,7 +125,7 @@
         </div>
       </section>
     </main>
-    <footer class="layout">
+    <footer class="wrapper">
       <p>Designed and built by Adam Wozniak 2023.</p>
     </footer>
   </body>
